@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@interface MyNavigationBar : UINavigationBar
+@end
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-
+-(void)reloadUI;
 @end
 
